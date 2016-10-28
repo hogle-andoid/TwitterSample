@@ -58,6 +58,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
+        android:layout_marginBottom="1dp"
         android:layout_weight="1"
         android:id="@+id/twitter_tweet"
         >
@@ -89,6 +90,49 @@
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
                 android:text="@string/twitter_tweet"
+                android:textColor="@color/tw__composer_white"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/twitter_timeline"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/tw__blue_default"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            >
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@id/twitter_icon"
+                android:layout_centerVertical="true"
+                android:src="@drawable/tw__composer_logo_white"
+                android:contentDescription="@string/twitter"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:paddingEnd="20dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/twitter_timeline"
                 android:textColor="@color/tw__composer_white"
                 android:textStyle="bold"
                 android:textSize="25sp"

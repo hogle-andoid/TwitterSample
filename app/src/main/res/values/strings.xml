@@ -3,4 +3,5 @@
     <string name="twitter_login">Log in with Twitter</string>
     <string name="twitter">Twitter API</string>
     <string name="twitter_tweet">Tweet</string>
+    <string name="twitter_timeline">Show Timeline</string>
 </resources>
